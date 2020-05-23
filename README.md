@@ -39,7 +39,7 @@
 
     $ python calc_p.py ./demo/data.csv ./demo/sigma.csv ./demo/xi.csv 3
 
-実行後`result`ディレクトリに変化点位置，変化系列，検定結果($p$値)が出力される
+実行後`result`ディレクトリに変化点位置，変化系列，検定結果(p値)が出力される
 以下のように`display_p.py`を実行すれば結果をプロットした図を得ることができる
 - `display_p.py`には以下の引数が必要である
   - データXのファイルパス
@@ -48,7 +48,7 @@
 
     $ python display_p.py ./demo/data.csv
 
-実行後`result`ディレクトリに以下のように検出した変化点と検定結果($p$値)が付与された図が保存される
+実行後`result`ディレクトリに以下のように検出した変化点と検定結果(p値)が付与された図が保存される
 
 <div align="center">
 
